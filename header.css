@@ -16,7 +16,7 @@ body{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100px;
     background-color: #A44A26;
@@ -25,6 +25,10 @@ nav{
 #barra{
     height: 40px;
     border-left: 0.01px solid white;
+}
+
+.Perfilzinho{
+    margin-top: 1px;
 }
 
 nav .menu-icon{
@@ -40,6 +44,7 @@ nav .logo a{
     font-family: "Cormorant Garamond", serif;
     font-weight: 600;
     font-style: normal;
+    padding-left: 30%;
 }
 
 nav ul{
@@ -58,8 +63,8 @@ nav ul li a{
     /* text-transform: uppercase; */
     color: white;
     padding-bottom: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-bottom: 2px solid transparent;
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
@@ -72,73 +77,3 @@ nav ul li a:hover{
     border-bottom: 2px solid white;
 }
 
-main{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.text-bx{
-    width: 40%;
-}
-
-.text-bx h1{
-    font-size: 3rem;
-}
-
-.text-bx p{
-    color: black;
-    /* font-weight: 400; */
-    margin-top: 20px;
-}
-
-.text-bx button{
-    border: none;
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-footer{
-    width: 100%;
-    min-height: 250px;
-    background-color: rgb(95, 95, 95);
-    display: flex;
-}
-
-footer .boxs{
-    width: 620px;
-    min-height: 150px;
-    padding: 20px;
-}
-
-.boxs h2{
-    color: white;
-    margin-bottom: 20px;
-}
-
-.boxs ul li{
-    margin: 10px 0px;
-    list-style: none;
-}
-
-.boxs ul li a{
-    color: #ddd;
-    text-decoration: none;
-}
-
-.boxs ul li a:hover{
-    color: #fff;
-}
-
-.boxs p{
-    color: #fff;
-    text-align: justify;
-}
