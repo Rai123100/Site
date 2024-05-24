@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.corpo {
+    width: 90%;
+    height: 80vh;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #F9F2E7;
+    display: block;
+    align-items: center;
+}
+
+.tituloprincipal {
+    font-size: clamp(8%, 5vw, 7vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 5%;
+    padding-top: 2%;
+    color: #A34E2D;
+}
