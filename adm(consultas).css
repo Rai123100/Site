@@ -19,7 +19,7 @@ h5 {
 
 .container1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: clamp(8%, 4vw, 6vh);
     color: black;
     font-family: "Urbanist", sans-serif;
