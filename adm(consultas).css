@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F9F2E7;
+}
+
+h5 {
+    font-size: clamp(8%, 5vw, 7vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #A34E2D;
+    height: 13vh;
+    color: white;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: clamp(8%, 4vw, 6vh);
+    color: black;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #CFCFCF;
+    border-bottom: 0.4vh solid gray;
+}
+
+.consulta1 {
+    background-color: #CFCFCF;
+    height: 10vh;
+    padding-left: 1%;
+    padding-top: 1.5%;
+}
+
+#data {
+    border-left: 0.4vh solid gray;
+    padding-left: 2.5%;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#hora {
+    border-left: 0.4vh solid gray;
+    padding-left: 2.5%;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#medica {
+    border-left: 0.4vh solid gray;
+}
+
+.cancelar{
+    padding-top: 1.4%;
+    width: 3.5%;
+    height: 7vh;
+    background-color: #CFCFCF;
+}
+.canceladas {
+    margin-top: 10%;
+}
+
+#data3 {
+    padding-left: 5%;
+    border-left: 0.4vh solid gray;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#hora3 {
+    border-left: 0.4vh solid gray;
+    padding-left: 5%;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#data2 {
+    padding-left: 4%;
+    border-left: 0.4vh solid gray;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#hora2 {
+    border-left: 0.4vh solid gray;
+    padding-left: 4%;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.botao1 {
+    font-size: clamp(8%, 4vw, 6vh);
+    background-color: #A34E2D;
+    border: none;
+    color: white;
+    width: 15%;
+    height: 10vh;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+}
+
+.botao2 {
+    font-size: clamp(8%, 4vw, 6vh);
+    background-color: #A34E2D;
+    border: none;
+    color: white;
+    width: 25%;
+    height: 10vh;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-bottom: 5%;
+
+}
