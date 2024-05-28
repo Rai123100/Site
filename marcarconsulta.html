@@ -3,57 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="adm(médico).css" type="text/css">
+    <link rel="stylesheet" href="marcarconsulta.css" type="text/css">
     <title>Document</title>
 </head>
 <body>
-    <!-- Carcaça -->
-    <div class="corpo">
     <!-- Titulo -->
-    <h5 class="tituloprincipal">Cadastro de Médico</h5>
-    <!-- Data de cadastro -->
-    <div class="datinha">
-      <h5 class="datadocadastro">Data do Cadastro</h5>
-      <input id="cadastro" type="date" class="data" />
-  </div>
-  <!-- Nome do Paciente -->
-  <div class="medicozinho">
-    <h5 class="nomedomedico">Nome do Médico</h5>
-    <input id="nome" type="text" class="texto" />
-  </div>
-  <!-- Sexo -->
-  <div class="sexo">
-    <h5 class="selecionarsexo">Sexo</h5>
-    <select id="sex">
-      <option>Masculino</option>
-      <option>Feminino</option> 
-      <option>Outro</option>
+    <h5 class="tituloprincipal">Ficha de Consulta</h5>
+    <!-- Tratamentos -->
+    <div class="tratamentos">
+    <h5 class="titulo">Tratamentos</h5>
+    <select id="tratamento">
+        <option>Acne</option>
+        <option>Rosácea</option> 
+        <option>Dermatologia Infantil</option>
+        <option>Micose</option>
+        <option>Hiperidrose</option>
+        <option>Melasma</option>
+        <option>Queda de Cabelo</option>
     </select>
+    </div>
+    <!-- Data de Agendamento -->
+    <div class="datinha">
+      <h5 class="titulo">Data de Agendamento</h5>
+      <input id="agendamento" type="date" class="input" />
   </div>
-  <!-- Data de Nascimento -->
-  <div class="dat">
-    <h5 class="datadenascimento">Nascimento</h5>
-    <input id="nascimento" type="date" class="data" />
+   <!-- Endereço -->
+   <div class="pendereco">
+    <h5 class="titulo">Endereço</h5>
+    <input id="endereço" type="text" class="input" />
   </div>
-  <!-- CPF -->
-  <div class="pcpf">
-    <h5 class="titulocpf">CPF</h5>
-    <input id="cpf" type="number" class="texto" />
-  </div>
-  <!-- RG -->
-  <div class="prg">
-    <h5 class="titulorg">RG</h5>
-    <input id="rg" type="text" class="texto" />
+  <!-- Telefone -->
+  <div class="ptelefone">
+    <h5 class="titulo">Telefone</h5>
+    <input id="telefone" type="tel" class="input" />
   </div>
   <!-- Celular -->
   <div class="pcelular">
-    <h5 class="titulocelular">Celular</h5>
-    <input id="celular" type="tel" class="texto" />
+    <h5 class="titulo">Celular</h5>
+    <input id="celular" type="tel" class="input" />
   </div>
-  <!-- Endereço -->
-  <div class="pendereco">
-    <h5 class="tituloendereco">Endereço</h5>
-    <input id="endereço" type="text" class="texto" />
+  <!-- E-mail -->
+  <div class="email">
+    <h5 class="titulo">E-mail</h5>
+    <input id="email" type="text" class="input" />
+  </div>
+  <!-- Celular -->
+  <div class="pcep">
+    <h5 class="titulo">CEP</h5>
+    <input id="cep" type="tel" class="input" />
   </div>
     <!-- Botão para Salvar -->
 <div class="uv-checkbox-wrapper">
@@ -69,7 +66,6 @@
 </div>
   <!-- Botão -->
   <input type="button" value="Voltar" class="botao" />
-</div>
     <!-- Imagem -->
     <img src="/img/7ff8e95b-85e2-46e2-839a-93f20e944c17-removebg-preview.png" alt="" id="imagem">
 

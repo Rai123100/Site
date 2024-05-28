@@ -16,93 +16,227 @@ h5 {
     text-align: center;
     padding-top: 3vh;
 }
-
 .container1 {
-    display: flex;
-    justify-content: space-between;
-    font-size: clamp(8%, 4vw, 6vh);
-    color: black;
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    background-color: #CFCFCF;
-    border-bottom: 0.4vh solid gray;
-}
-
-.consulta1 {
-    background-color: #CFCFCF;
+    width: 100%;
     height: 10vh;
-    padding-left: 1%;
-    padding-top: 1.5%;
+    background-color: #CFCFCF;
+    border-bottom: 0.5vh solid gray;
 }
-
-#data {
-    border-left: 0.4vh solid gray;
-    padding-left: 2.5%;
+.consulta1 {
+    align-items: center;
+}
+#nome {
+    width: 34%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    display: inline-block;
+    background-color: transparent;
+    padding-left: 1%;
+}
+#data {
+    width: 10%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+    margin-left: -1%;
+    background-color: transparent;
+    border-left: 0.5vh solid gray;
 }
 
 #hora {
-    border-left: 0.4vh solid gray;
-    padding-left: 2.5%;
+    width: 10%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    display: inline-block;
+    text-align: center;
+    margin-left: -1%;
+    background-color: transparent;
+    border-left: 0.5vh solid gray;
 }
 
 #medica {
-    border-left: 0.4vh solid gray;
+    width: 34%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: inline-block;
+    margin-left: -1%;
+    background-color: transparent;
+    border-left: 0.5vh solid gray;
+    padding-left: 1%;
+}
+#imagem {
+    display: inline-block;
+    background-color: transparent;
+    width: 6%;
+}
+#imagem img{
+    width: 40%;
+    align-items: center;
+    background-color: transparent;
+    padding-top: 15%;
 }
 
-.cancelar{
-    padding-top: 1.4%;
-    width: 3.5%;
-    height: 7vh;
+.container2 {
+    width: 100%;
+    height: 10vh;
     background-color: #CFCFCF;
 }
+.consulta2 {
+    align-items: center;
+}
+#nome2 {
+    width: 34%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: inline-block;
+    background-color: transparent;
+    padding-left: 1%;
+}
+#data2 {
+    width: 10%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+    margin-left: -1%;
+    background-color: transparent;
+    border-left: 0.5vh solid gray;
+}
+
+#hora2 {
+    width: 10%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+    margin-left: -1%;
+    background-color: transparent;
+    border-left: 0.5vh solid gray;
+}
+
+#medica2 {
+    width: 34%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: inline-block;
+    margin-left: -1%;
+    background-color: transparent;
+    border-left: 0.5vh solid gray;
+    padding-left: 1%;
+}
+#imagem2 {
+    display: inline-block;
+    background-color: transparent;
+    width: 6%;
+}
+#imagem2 img{
+    width: 40%;
+    align-items: center;
+    background-color: transparent;
+    padding-top: 15%;
+}
+
 .canceladas {
     margin-top: 10%;
 }
 
-#data3 {
-    padding-left: 5%;
-    border-left: 0.4vh solid gray;
+.container3 {
+    width: 100%;
+    height: 10vh;
+    background-color: #CFCFCF;
+}
+.consulta3 {
+    align-items: center;
+}
+#nome3 {
+    width: 34%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    display: inline-block;
+    background-color: transparent;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+#data3 {
+    width: 10%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+    margin-left: -1%;
+    background-color: transparent;
+    border-left: 0.5vh solid gray;
 }
 
 #hora3 {
-    border-left: 0.4vh solid gray;
-    padding-left: 5%;
+    width: 10%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    display: inline-block;
+    text-align: center;
+    margin-left: -1%;
+    background-color: transparent;
+    border-left: 0.5vh solid gray;
 }
 
-#data2 {
-    padding-left: 4%;
-    border-left: 0.4vh solid gray;
+#medica3 {
+    width: 34%;
+    height: 7vh;
+    font-size: clamp(8%, 4vw, 6vh);
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-}
-
-#hora2 {
-    border-left: 0.4vh solid gray;
-    padding-left: 4%;
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+    display: inline-block;
+    margin-left: -1%;
+    background-color: transparent;
+    border-left: 0.5vh solid gray;
+    padding-left: 1%;
 }
 
 .botao1 {
