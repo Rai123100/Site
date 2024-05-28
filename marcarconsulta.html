@@ -7,12 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+  <div class="tudo">
     <!-- Titulo -->
     <h5 class="tituloprincipal">Ficha de Consulta</h5>
     <!-- Tratamentos -->
     <div class="tratamentos">
     <h5 class="titulo">Tratamentos</h5>
-    <select id="tratamento">
+    <select id="tratamento" class="input">
         <option>Acne</option>
         <option>Rosácea</option> 
         <option>Dermatologia Infantil</option>
@@ -32,6 +33,15 @@
     <h5 class="titulo">Endereço</h5>
     <input id="endereço" type="text" class="input" />
   </div>
+  <!-- Especialistas -->
+  <div class="medicos">
+    <h5 class="titulo">Especialistas</h5>
+    <select id="medico" class="input">
+        <option>Dr. Otto Octavius</option>
+        <option>Dra. Deolane Silva</option> 
+        <option>Dra. Raquel Rui Barbosa</option>
+    </select>
+    </div>
   <!-- Telefone -->
   <div class="ptelefone">
     <h5 class="titulo">Telefone</h5>
@@ -52,22 +62,12 @@
     <h5 class="titulo">CEP</h5>
     <input id="cep" type="tel" class="input" />
   </div>
-    <!-- Botão para Salvar -->
-<div class="uv-checkbox-wrapper">
-  <input type="checkbox" id="uv-checkbox" class="uv-checkbox" />
-  <label for="uv-checkbox" class="uv-checkbox-label">
-    <div class="uv-checkbox-icon">
-      <svg viewBox="0 0 24 24" class="uv-checkmark">
-        <path d="M4.1,12.7 9,17.6 20.3,6.3" fill="none"></path>
-      </svg>
-    </div>
-    <span class="uv-checkbox-text">Salvar</span>
-  </label>
-</div>
   <!-- Botão -->
-  <input type="button" value="Voltar" class="botao" />
+  <input type="button" value="Voltar" class="botao" id="botao1" />
+  <input type="button" value="Salvar" class="botao" id="botao2" />
     <!-- Imagem -->
-    <img src="/img/7ff8e95b-85e2-46e2-839a-93f20e944c17-removebg-preview.png" alt="" id="imagem">
+    <!-- <img src="/img/7ff8e95b-85e2-46e2-839a-93f20e944c17-removebg-preview.png" alt="" id="imagem"> -->
+  </div>
 
 
 

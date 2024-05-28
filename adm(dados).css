@@ -4,6 +4,10 @@
     background-color: #F9F2E7;
 }
 
+.tudo {
+    font-size: clamp(8%, 3vw, 5vh);
+}
+
 .titulo {
 font-size: clamp(8%, 7vw, 9vh);
 font-family: "Urbanist", sans-serif;
