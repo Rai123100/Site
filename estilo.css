@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* HEADER */
+.container{
+    max-width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: #A44A26;
+    box-shadow: 0.0vh 0.07vh 0.9vh ;
+}
+#barra{
+    height: 6vh;
+    border-left: 0.01px solid white;
+}
+
+.Perfilzinho{
+    margin-top: 1px;
+}
+
+nav .menu-icon{
+    cursor: pointer;
+    display: none;
+}
+
+nav .logo a{
+    font-size: 8vh;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 10%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 1vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 5vh;
+    color: white;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-bottom: 0.3vh solid transparent;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav ul li a:hover{
+    transform: scale(1,2);
+    border-bottom: 0.3vh solid white;
+}
+
+.contato {
+    text-decoration: none;
+    font-size: 5vh;
+    color: white;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-bottom: 0.3vh solid white;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+/* CONTEUDO */
+
+/* primeira parte */
+.fundo{
+    background-color: #F9F2E7;
+    width: 100%;
+    height: 48%h;
+    margin-top: -1%;
+}
+main{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 5.4%; */
+    /* margin-right: 5.4%; */
+}
+
+.text-bx{
+    width: 40%;
+}
+
+.text-bx h1{
+    font-size: clamp(3%, 4vw, 9vh);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #7B2E0F;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.text-bx p{
+    color: black;
+    margin-top: 5%;
+    font-size: clamp(3%, 4vw, 5vh);
+    color: #7B2E0F;
+    margin-left: 10%;
+    width: 81%;
+    font-family: "Urbanist", sans-serif;
+}
+
+.text-bx button{
+    border: none;
+    background-color: transparent;
+    color: black;
+    padding: 5.2vh 6.5vh;
+    border: 0.26vh solid #66270E;
+    font-size: clamp(3%, 4vw, 4vh);
+    letter-spacing: 0.39vh;
+    margin-left: 10%;
+    width: 75%;
+    cursor: pointer;
+    margin-top: 20%;
+    color: #66270E;
+    font-family: "Urbanist", sans-serif;
+}
+
+.text-bx button a{
+    text-decoration: none;
+    color: #66270E;
+}
+
+.text-bx button a:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+.text-bx button:hover{
+    background-color: #66270E;
+    color: white;
+}
+/* .text-bx button svg{
+    width: 20%;
+}
+
+.text-bx button svg:hover{
+    color: white;
+} */
+
+/* segunda parte */
+.fundo2{
+    margin-left: 5.4%;
+    margin-right: 5.4%;
+}
+
+.img2{
+    margin-top: 5%;
+}
+
+.fundo2 h1{
+    font-size: clamp(6%, 7vw, 9vh);
+    margin-left: 40%;
+    margin-right: 20%;
+    margin-top: -50%;
+    color: #E78B00;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.fundo2 p{
+    margin-left: 40%;
+    margin-right: 5.4%;
+    margin-top: 3%;
+    font-size: clamp(3.5%, 3vw, 3.85vh);
+    text-align: justify;
+    font-family: "Urbanist", sans-serif;
+}
+
+.fundo2 button{
+    border: none;
+    background-color: transparent;
+    color: black;
+    padding: 5.2vh 6.5vh;
+    border: 2px solid #E78B00;
+    font-size: 2.4rem;
+    letter-spacing: 3px;
+    margin-left: 40%;
+    width: 25%;
+    cursor: pointer;
+    margin-top: 3.3%;
+    color: #E78B00;
+    font-family: "Urbanist", sans-serif;
+}
+
+.fundo2 button a{
+    text-decoration: none;
+    color: #E78B00;
+}
+
+.fundo2 button a:hover{
+    background-color: #E78B00;
+    color: white;
+}
+
+.fundo2 button:hover{
+    background-color: #E78B00;
+    color: white;
+}
+
+/* terceira parte */
+.tratamentos button{
+    width: 100%;
+    margin-top: 5%;
+    border: transparent;
+    background-color: #EABE79;
+    height: 11.8vh;
+    font-size: 4vh;
+    color: black;
+    cursor: pointer;
+    font-family: "Urbanist", sans-serif;
+}
+
+.tratamentos button:hover{
+    background-color: black;
+    color: #EABE79;
+}
+
+.tratamentos_img1{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-top: 3%;
+    margin-left: 5.4%;
+    margin-right: 5.4%;
+}
+
+.acne button{
+    color: #66270E;
+    border: 2px solid #66270E;
+    background-color: transparent;
+    margin-left: 5.4%;
+    width: 22%;
+    height: 7vh;
+    margin-top: 0.5%;
+    cursor: pointer;
+    font-family: "Urbanist", sans-serif;
+}
+
+.acne button a{
+    text-decoration: none;
+    color: #66270E;
+}
+
+.acne button a:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+.acne button:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+.tratamentos_img2{
+    margin-top: -18.5%;
+    margin-left: 39%;
+    margin-right: 5.4%;
+}
+
+.infantil button{
+    color: #66270E;
+    border: 2px solid #66270E;
+    background-color: transparent;
+    margin-left: 39%;
+    width: 22%;
+    height: 7vh;
+    cursor: pointer;
+    margin-top: 0.5%;
+    font-family: "Urbanist", sans-serif;
+}
+
+.infantil button a{
+    text-decoration: none;
+    color: #66270E;
+}
+
+.infantil button a:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+.infantil button:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+.tratamentos_img3{
+    margin-top: -18.5%;
+    margin-left: 72.7%;
+    margin-right: 5.4%;
+}
+
+.rosacea button{
+    color: #66270E;
+    border: 2px solid #66270E;
+    background-color: transparent;
+    margin-left: 72.7%;
+    width: 22%;
+    height: 7vh;
+    cursor: pointer;
+    margin-top: 0.5%;
+    font-family: "Urbanist", sans-serif;
+}
+
+.rosacea button a{
+    text-decoration: none;
+    color: #66270E;
+}
+
+.rosacea button a:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+.rosacea button:hover{
+    background-color: #66270E;
+    color: white;
+}
+
+/* quarta parte */
+.medica{
+    background-color: #F9F2E7;
+    width: 100%;
+    margin-top: 5%;
+    height: 805px;
+}
+
+.escrita img{
+    margin-left: 5.4%;
+    margin-right: 5;
+}
+
+.escrita h1{
+    color: #7B2E0F;
+    margin-left: 88vh;
+    font-size: 8vh;
+    margin-top: -40%;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.escrita li{
+    font-size: 5vh;
+    margin-left: 88vh;
+    color: #7B2E0F;
+    margin-right: 5.4%;
+    text-align: justify;
+    margin-top: 4%;
+    font-family: "Urbanist", sans-serif;
+}
+
+/* RODAPÉ */
+footer{
+    background-color: #F9F2E7;
+    background: linear-gradient(to top, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, #F9F2E7, white);
+    height: 690px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.container2{
+    display: flex;
+}
+
+.container3{
+    margin-top: 80px;
+    width: 120%;
+}
+
+.contact-info{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.contact-info img{
+    width: 15%;
+}
+
+.contact-info a{
+    margin-left: 10px;
+    color: #7B2E0F;
+    font-size: 2.5vh;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+}
+
+.zap{
+    width: 45%;
+}
+
+.email{
+    width: 20%;
+}
+
+.local{
+    width: 35%;
+}
+
+footer .boxs{
+    display: flex;
+    margin-left: -100px;
+}
+
+.boxs p{
+    color: #7B2E0F;
+    text-align: justify;
+    font-size: 3.8vh;
+    margin-top: 100px;
+    width: 86%;
+    font-family: "Urbanist", sans-serif;
+}
+
+.boxs a{
+    list-style: none;
+    cursor: pointer;
+    color: #7B2E0F;
+    font-size: 20px;
+    line-height: 1;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+}
+
+.container4{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
